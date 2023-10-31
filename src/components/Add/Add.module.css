@@ -1,0 +1,20 @@
+.input {
+  width: 600px;
+  height: 40px;
+  border: 1px #000 solid;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px #a2c0da solid;
+  box-shadow: 0 0 10px 1px #a2c0da;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

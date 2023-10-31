@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  margin: 10px auto;
+  line-height: 50px;
+}
+
+.all {
+  margin: 0 11px;
+}

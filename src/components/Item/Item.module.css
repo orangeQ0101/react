@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 600px;
+  height: 35px;
+  border: 1px #e1e1e1 solid;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.container:hover {
+  background-color: #dcdcdc;
+}
+
+.check {
+  position: absolute;
+  top: 34%;
+  margin: 0 10px;
+}
+
+.delete {
+  /* display: none; */
+  position: absolute;
+  left: 90%;
+  top: 4%;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #bd352f;
+  cursor: pointer;
+}
+
+.content {
+  float: left;
+  position: absolute;
+  left: 5%;
+}
