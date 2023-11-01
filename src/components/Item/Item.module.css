@@ -19,7 +19,7 @@
 }
 
 .delete {
-  /* display: none; */
+  display: none;
   position: absolute;
   left: 90%;
   top: 4%;
