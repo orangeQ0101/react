@@ -10,11 +10,13 @@ export default class Add extends Component {
     )
   }
 
+  // 增加Item功能
   handleKeyUP = (event) => {
     const { target, keyCode } = event
     const { newTodo } = this.props
     if (keyCode !== 13) return
-    if (target.value === '') {
+    if (target.value.trim() === '') {
+      target.value = ''
       return alert('输出不能为空')
     }
     newTodo(target.value)
