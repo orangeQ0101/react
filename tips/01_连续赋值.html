@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const obj = { a: { b: { c: 1 } } }
+
+    // 1.常规取值
+    // console.log(obj.a.b.c);
+
+    // 2.连续解构赋值
+    // const { a: { b: { c } } } = obj
+    // console.log(c);
+
+    // 3.连续解构赋值并更改变量名
+    const { a: { b: { c: data } } } = obj
+    console.log(data);
+  </script>
+</body>
+
+</html>
