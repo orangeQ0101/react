@@ -59,6 +59,8 @@
   height: 15%;
   border: 1px solid #73737a;
   border-radius: 5px;
+  text-decoration: none;
+  color: #040404;
   cursor: pointer;
 }
 
